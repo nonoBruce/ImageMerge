@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3F0BB7F1B69CC7100E545F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0BB7E1B69CC7100E545F2 /* main.m */; };
+		A3F0BB821B69CC7100E545F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0BB811B69CC7100E545F2 /* AppDelegate.m */; };
+		A3F0BB851B69CC7100E545F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0BB841B69CC7100E545F2 /* ViewController.m */; };
+		A3F0BB881B69CC7100E545F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F0BB861B69CC7100E545F2 /* Main.storyboard */; };
+		A3F0BB8A1B69CC7100E545F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F0BB891B69CC7100E545F2 /* Images.xcassets */; };
+		A3F0BB8D1B69CC7100E545F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F0BB8B1B69CC7100E545F2 /* LaunchScreen.xib */; };
+		A3F0BB991B69CC7100E545F2 /* ImageMergeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0BB981B69CC7100E545F2 /* ImageMergeTests.m */; };
+		A3F0BBA81B6A102700E545F2 /* ImageMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0BBA71B6A102700E545F2 /* ImageMerge.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3F0BB931B69CC7100E545F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F0BB711B69CC7100E545F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F0BB781B69CC7100E545F2;
+			remoteInfo = ImageMerge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3F0BB791B69CC7100E545F2 /* ImageMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F0BB7D1B69CC7100E545F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F0BB7E1B69CC7100E545F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3F0BB801B69CC7100E545F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3F0BB811B69CC7100E545F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3F0BB831B69CC7100E545F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3F0BB841B69CC7100E545F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3F0BB871B69CC7100E545F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3F0BB891B69CC7100E545F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3F0BB8C1B69CC7100E545F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3F0BB921B69CC7100E545F2 /* ImageMergeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMergeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F0BB971B69CC7100E545F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F0BB981B69CC7100E545F2 /* ImageMergeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMergeTests.m; sourceTree = "<group>"; };
+		A3F0BBA61B6A102700E545F2 /* ImageMerge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageMerge.h; path = ImageMerge/ImageMerge.h; sourceTree = "<group>"; };
+		A3F0BBA71B6A102700E545F2 /* ImageMerge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageMerge.m; path = ImageMerge/ImageMerge.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F0BB761B69CC7100E545F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F0BB8F1B69CC7100E545F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F0BB701B69CC7100E545F2 = {
+			isa = PBXGroup;
+			children = (
+				A3F0BB7B1B69CC7100E545F2 /* ImageMerge */,
+				A3F0BB951B69CC7100E545F2 /* ImageMergeTests */,
+				A3F0BB7A1B69CC7100E545F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F0BB7A1B69CC7100E545F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0BB791B69CC7100E545F2 /* ImageMerge.app */,
+				A3F0BB921B69CC7100E545F2 /* ImageMergeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F0BB7B1B69CC7100E545F2 /* ImageMerge */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0BBA21B69CD2100E545F2 /* ImageMerge */,
+				A3F0BB801B69CC7100E545F2 /* AppDelegate.h */,
+				A3F0BB811B69CC7100E545F2 /* AppDelegate.m */,
+				A3F0BB831B69CC7100E545F2 /* ViewController.h */,
+				A3F0BB841B69CC7100E545F2 /* ViewController.m */,
+				A3F0BB861B69CC7100E545F2 /* Main.storyboard */,
+				A3F0BB891B69CC7100E545F2 /* Images.xcassets */,
+				A3F0BB8B1B69CC7100E545F2 /* LaunchScreen.xib */,
+				A3F0BB7C1B69CC7100E545F2 /* Supporting Files */,
+			);
+			path = ImageMerge;
+			sourceTree = "<group>";
+		};
+		A3F0BB7C1B69CC7100E545F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0BB7D1B69CC7100E545F2 /* Info.plist */,
+				A3F0BB7E1B69CC7100E545F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3F0BB951B69CC7100E545F2 /* ImageMergeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0BB981B69CC7100E545F2 /* ImageMergeTests.m */,
+				A3F0BB961B69CC7100E545F2 /* Supporting Files */,
+			);
+			path = ImageMergeTests;
+			sourceTree = "<group>";
+		};
+		A3F0BB961B69CC7100E545F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0BB971B69CC7100E545F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3F0BBA21B69CD2100E545F2 /* ImageMerge */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0BBA61B6A102700E545F2 /* ImageMerge.h */,
+				A3F0BBA71B6A102700E545F2 /* ImageMerge.m */,
+			);
+			name = ImageMerge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F0BB781B69CC7100E545F2 /* ImageMerge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F0BB9C1B69CC7100E545F2 /* Build configuration list for PBXNativeTarget "ImageMerge" */;
+			buildPhases = (
+				A3F0BB751B69CC7100E545F2 /* Sources */,
+				A3F0BB761B69CC7100E545F2 /* Frameworks */,
+				A3F0BB771B69CC7100E545F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageMerge;
+			productName = ImageMerge;
+			productReference = A3F0BB791B69CC7100E545F2 /* ImageMerge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3F0BB911B69CC7100E545F2 /* ImageMergeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F0BB9F1B69CC7100E545F2 /* Build configuration list for PBXNativeTarget "ImageMergeTests" */;
+			buildPhases = (
+				A3F0BB8E1B69CC7100E545F2 /* Sources */,
+				A3F0BB8F1B69CC7100E545F2 /* Frameworks */,
+				A3F0BB901B69CC7100E545F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F0BB941B69CC7100E545F2 /* PBXTargetDependency */,
+			);
+			name = ImageMergeTests;
+			productName = ImageMergeTests;
+			productReference = A3F0BB921B69CC7100E545F2 /* ImageMergeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F0BB711B69CC7100E545F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ELING;
+				TargetAttributes = {
+					A3F0BB781B69CC7100E545F2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A3F0BB911B69CC7100E545F2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A3F0BB781B69CC7100E545F2;
+					};
+				};
+			};
+			buildConfigurationList = A3F0BB741B69CC7100E545F2 /* Build configuration list for PBXProject "ImageMerge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3F0BB701B69CC7100E545F2;
+			productRefGroup = A3F0BB7A1B69CC7100E545F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F0BB781B69CC7100E545F2 /* ImageMerge */,
+				A3F0BB911B69CC7100E545F2 /* ImageMergeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F0BB771B69CC7100E545F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F0BB881B69CC7100E545F2 /* Main.storyboard in Resources */,
+				A3F0BB8D1B69CC7100E545F2 /* LaunchScreen.xib in Resources */,
+				A3F0BB8A1B69CC7100E545F2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F0BB901B69CC7100E545F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F0BB751B69CC7100E545F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F0BB851B69CC7100E545F2 /* ViewController.m in Sources */,
+				A3F0BBA81B6A102700E545F2 /* ImageMerge.m in Sources */,
+				A3F0BB821B69CC7100E545F2 /* AppDelegate.m in Sources */,
+				A3F0BB7F1B69CC7100E545F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F0BB8E1B69CC7100E545F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F0BB991B69CC7100E545F2 /* ImageMergeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3F0BB941B69CC7100E545F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F0BB781B69CC7100E545F2 /* ImageMerge */;
+			targetProxy = A3F0BB931B69CC7100E545F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3F0BB861B69CC7100E545F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F0BB871B69CC7100E545F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3F0BB8B1B69CC7100E545F2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F0BB8C1B69CC7100E545F2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3F0BB9A1B69CC7100E545F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3F0BB9B1B69CC7100E545F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F0BB9D1B69CC7100E545F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageMerge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3F0BB9E1B69CC7100E545F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageMerge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3F0BBA01B69CC7100E545F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageMergeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageMerge.app/ImageMerge";
+			};
+			name = Debug;
+		};
+		A3F0BBA11B69CC7100E545F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageMergeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageMerge.app/ImageMerge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F0BB741B69CC7100E545F2 /* Build configuration list for PBXProject "ImageMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F0BB9A1B69CC7100E545F2 /* Debug */,
+				A3F0BB9B1B69CC7100E545F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F0BB9C1B69CC7100E545F2 /* Build configuration list for PBXNativeTarget "ImageMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F0BB9D1B69CC7100E545F2 /* Debug */,
+				A3F0BB9E1B69CC7100E545F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F0BB9F1B69CC7100E545F2 /* Build configuration list for PBXNativeTarget "ImageMergeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F0BBA01B69CC7100E545F2 /* Debug */,
+				A3F0BBA11B69CC7100E545F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3F0BB711B69CC7100E545F2 /* Project object */;
+}
